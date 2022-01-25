@@ -46,7 +46,7 @@ const HomeNavigator = createStackNavigator(
 );
 const ContactNavigator = createStackNavigator(
     {
-        Home: { screen: Contact }
+        Contact: { screen: Contact }
     },
     {
         defaultNavigationOptions: {
@@ -62,7 +62,7 @@ const ContactNavigator = createStackNavigator(
 );
 const AboutNavigator = createStackNavigator(
     {
-        Home: { screen: About }
+        About: { screen: About }
     },
     {
         defaultNavigationOptions: {
