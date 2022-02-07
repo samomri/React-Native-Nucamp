@@ -108,7 +108,7 @@ class Reservation extends Component {
                     />
                 </View>
                 <Modal
-                    animationType={'slide'}
+                    animationType={'shade'}
                     transparent={false}
                     visible={this.state.showModal}
                     onRequestClose={() => this.toggleModal()}
